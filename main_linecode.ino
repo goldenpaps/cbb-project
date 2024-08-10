@@ -326,6 +326,8 @@ void loop() {
     lcd.print(b);
     delay(15000);
   }
+  //the below code wis from when the PIR motion sensor was in use
+  //Not getting rid of it just yet in case a switch back is necessary
   //  int a = digitalRead(A5); //reading from sensor
   //  Serial.println(a);
   //  if (a==HIGH)
